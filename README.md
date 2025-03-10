@@ -1,15 +1,13 @@
 # NeuraLince
 
 
-…or create a new repository on the command line
+## Crear un nuevo repositorio en la línea de comandos
+
+```bash
 echo "# NeuraLince" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:santiago-arcilag/NeuraLince.git
-git push -u origin main
-…or push an existing repository from the command line
-git remote add origin git@github.com:santiago-arcilag/NeuraLince.git
-git branch -M main
 git push -u origin main
